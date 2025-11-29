@@ -1,5 +1,5 @@
 import { IoIosArrowForward } from "react-icons/io";
-import background from "../assets/background.mp4";
+
 import { Link } from "react-router-dom";
 
 const HeroSection = () => {
@@ -9,11 +9,15 @@ const HeroSection = () => {
 
             <video
                 className="absolute inset-0 w-full h-full object-cover"
-                src={background}
+                src="/background.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
+                webkit-playsinline="true"
+                preload="auto"
+                disablePictureInPicture
+                controls={false}
             />
 
 
