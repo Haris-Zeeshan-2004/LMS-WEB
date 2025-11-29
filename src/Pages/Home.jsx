@@ -1,5 +1,5 @@
 import Hero from '../Components/Hero'
-import Card from '../Components/card'
+import Card from '../Components/Card'
 import WhyChooseUs from '../Components/WhyChooseUs'
 import HowItWorks from '../Components/HowItWorks'
 import Testimonials from '../Components/Testimonials'
