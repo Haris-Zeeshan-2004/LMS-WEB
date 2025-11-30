@@ -39,14 +39,14 @@ export default function CertificateVerification() {
         />
         <button
           onClick={handleVerify}
-          className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg font-semibold transition"
+          className="w-full bg-blue-400 hover:bg-blue-500 text-white py-3 rounded-lg font-semibold transition"
         >
           Verify
         </button>
 
         {result && (
           <div
-            className={`mt-6 p-4 rounded-lg ${result.valid ? "bg-green-100 text-green-800" : "bg-red-100 text-red-800"
+            className={`mt-6 p-4 rounded-lg ${result.valid ? "bg-blue-100 text-blue-900" : "bg-red-100 text-red-800"
               }`}
           >
             {result.valid ? (
@@ -57,7 +57,7 @@ export default function CertificateVerification() {
                 <a
                   href={result.file}
                   download
-                  className="mt-2 inline-block bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg"
+                  className="mt-2 inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg"
                 >
                   Download Certificate
                 </a>
@@ -71,7 +71,7 @@ export default function CertificateVerification() {
         {/* Get Internship Button */}
         <button
           onClick={handleInternshipClick}
-          className="mt-6 w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg font-semibold transition"
+          className="mt-6 w-full bg-blue-400 hover:bg-blue-500 text-white py-3 rounded-lg font-semibold transition"
         >
           Get Internship
         </button>

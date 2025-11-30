@@ -110,7 +110,7 @@ export default function InternshipApplication() {
                     />
                     <button
                         type="submit"
-                        className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition"
+                        className="w-full bg-blue-400 hover:bg-blue-500 text-white py-3 rounded-lg font-semibold transition"
                     >
                         Submit Application
                     </button>
